@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modified Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container bg-black flex">
+      <div class="left">
+        <div class="home bg-grey">
+          <div class="homeTop">
+            <img class="logo" src="Assets/logo.svg" alt="Logo" />
+            <img class="cross invert" src="Assets/cross.svg" alt="">
+          </div>
+          <ul>
+            <li><img class="cursor" src="Assets/home.svg" alt="Home" />Home</li>
+            <li><img class="cursor" src="Assets/search.svg" alt="Search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey">
+          <div class="heading">
+            <img src="Assets/playlist.svg" alt="Playlist" />
+            <h3>Your library</h3>
+          </div>
+          <div class="songList">
+            <ul>
+
+            </ul>
+          </div>
+          <div class="footer">
+            <a href="">Legal</a>
+            <a href="">Privacy Center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Cookies</a>
+            <a href="">About Ads</a>
+            <a href="">Accessibility</a>
+            <a href="">Cookies</a>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey">
+        <div class="header">
+          <div class="nav invert">
+            <img class="hamburger" src="Assets/hamburger.svg" alt="">
+            <img class="LeftIcon" src="Assets/left.svg" alt="" />
+            <img class="RightIcon" src="Assets/right.svg" alt="" />
+          </div>
+          <div class="buttons">
+            <button class="sbtn" >Sign Up</button>
+            <button class="lbtn">Log In</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylist">
+          <h2>Spotify playlists</h2>
+          <div class="cardContainer cursor">
+            
+            </div>
+            <div class="playbar">
+              <div class="audioBar">
+                <div class="songInfo"></div>
+                <div class="songbuttons">
+                  <img id="previous" class="cursor" src="Assets/prev.svg" alt="">
+                  <img id="play" class="cursor" src="Assets/play.svg" alt="">
+                  <img id="next" class="cursor" src="Assets/next.svg" alt="">
+                </div>
+                <div class="volTime">
+                  <div class="songTime"></div>
+                  <div class="volume">
+                    <img class="invert cursor" id="volume" src="Assets/volume.svg" alt="">
+                    <input id = "volumeBar" class="cursor" type="range">
+                  </div>
+                </div>
+                  </div>
+                  <div class="seekbar">
+                  <div class="circle"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
