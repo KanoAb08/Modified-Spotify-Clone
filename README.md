@@ -4,3 +4,9 @@ But if you want to add your own folder you can just simply add it inside songs f
 2) A .json file named "info.json" which should include {"title":"your title", "description" : "your description"}
 Also name the songs that you add in following format for better readability in the app:
      Song name-Artist name
+
+
+Video of the Clone:
+
+https://github.com/KanoAb08/Modified-Spotify-Clone/assets/133496089/4ca25a3a-9637-465b-bfa5-30367b79d246
+
